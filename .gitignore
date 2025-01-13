@@ -26,6 +26,10 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Manufacture files
+*.gbr
+drill/
+
 # Exported BOM files
 *.xml
 *.csv
