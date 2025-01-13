@@ -14,15 +14,15 @@
     (start_pass_no 1)
     (layer_rule F.Cu
       (active on)
-      (preferred_direction vertical)
+      (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 4.5)
+      (against_preferred_direction_trace_costs 4.0)
     )
     (layer_rule B.Cu
       (active on)
-      (preferred_direction horizontal)
+      (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.0)
+      (against_preferred_direction_trace_costs 3.2)
     )
   )
   (rule
@@ -64,13 +64,10 @@
     )
   )
   (class "kicad_default"
-    GND "Net-(U1-AVCC)" "Net-(U3-V+)" "Net-(U2-V+)" "Net-(J1-Pin_1)" VDD "Net-(D1-K)" "Net-(J2-Pin_1)"
-    "Net-(J2-Pin_2)" "Net-(J3-Pin_2)" "Net-(J3-Pin_1)" "Net-(J4-Pin_5)" "Net-(J4-Pin_3)" "Net-(J4-Pin_1)" "Net-(J4-Pin_4)" VCC
-    "Net-(J5-Pin_1)" "unconnected-(P1-SHIELD-PadS1)" "unconnected-(P1-VCONN-PadB5)" "unconnected-(P1-SHIELD-PadS1)_1" "unconnected-(P1-SHIELD-PadS1)_2" "unconnected-(P1-SHIELD-PadS1)_3" "Net-(P1-CC)" "Net-(U4-PROG)"
-    "Net-(R4-Pad1)" "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(R5-Pad1)" "Net-(U4-STAT)" "unconnected-(U1-PD0-Pad30)" "unconnected-(U1-AREF-Pad20)" "unconnected-(U1-PD6-Pad10)"
-    "unconnected-(U1-PC3-Pad26)" "unconnected-(U1-PC1-Pad24)" "unconnected-(U1-XTAL1{slash}PB6-Pad7)" "unconnected-(U1-PC0-Pad23)" "unconnected-(U1-PB0-Pad12)" "unconnected-(U1-PC2-Pad25)" "Net-(U1-ADC6)" "unconnected-(U1-PC5-Pad28)"
-    "unconnected-(U1-PC4-Pad27)" "Net-(U1-ADC7)" "unconnected-(U1-PD7-Pad11)" "unconnected-(U1-PB2-Pad14)" "unconnected-(U1-PD4-Pad2)" "unconnected-(U1-PD5-Pad9)" "unconnected-(U1-PD2-Pad32)" "unconnected-(U1-XTAL2{slash}PB7-Pad8)"
-    "unconnected-(U1-PD3-Pad1)" "unconnected-(U1-PD1-Pad31)" "unconnected-(U4-NC-Pad7)"
+    GND "Net-(J3-CC1)" "Net-(U1-RG2)" "Net-(U1-RG1)" VBUS VDD "Net-(D1-K)" "Net-(J2-Pin_1)"
+    "Net-(J2-Pin_2)" "unconnected-(U5-PB4-Pad3)" "Net-(J4-Pin_5)" "Net-(J4-Pin_1)" VCC "Net-(U4-PROG)" "Net-(Q2-S)" "Net-(D2-A)"
+    "unconnected-(U4-NC-Pad7)" "Net-(J4-Pin_4)" "Net-(J4-Pin_3)" "Net-(U1-VOUT)" "unconnected-(J3-SHIELD-PadS1)" "unconnected-(J3-SHIELD-PadS1)_1" "unconnected-(J3-SHIELD-PadS1)_2" "unconnected-(J3-SHIELD-PadS1)_3"
+    "Net-(Q2-G)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
