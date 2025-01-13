@@ -18,7 +18,7 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
-
+/Hat PCB-backups
 # Netlist files (exported from Eeschema)
 *.net
 
